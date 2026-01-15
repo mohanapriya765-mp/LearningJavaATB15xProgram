@@ -1,7 +1,12 @@
 package ex_03_Java_Basics;
 
 public class Lab007_Keywords_Identifiers {
+
+    // package name is identifier which is unique
+    // class name is identifier which is unique
     public static void main(String[] args) {
+
+
         String a = "Java";
         String b = new String("Java");
 
