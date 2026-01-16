@@ -24,5 +24,7 @@ public class Lab009_Numeric_Datatypes {
         double d = 97865643.0; //Need to check later
         System.out.println(d);
 
+
+
     }
 }

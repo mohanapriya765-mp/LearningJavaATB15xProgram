@@ -1,4 +1,4 @@
-package ex_03_Coding_task;
+package Coding_task;
 
 public class task1_print_tables {
     public static void main(String[] args) {
@@ -14,6 +14,6 @@ public class task1_print_tables {
         System.out.printf("%dx7 = %d%n", table, table*7);
         System.out.printf("%dx8 = %d%n", table, table*8);
         System.out.printf("%dx9 = %d%n", table, table*9);
-        System.out.printf("%dx10 = %d%n", table, table*10);
+        System.out.printf("%dx10 = %d%n",table, table*10);
     }
 }

@@ -1,5 +1,7 @@
 package ex_03_Java_Basics;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Lab008_Variables {
     public static void main(String[] args) {
 
@@ -22,6 +24,13 @@ public class Lab008_Variables {
         System.out.println(a); //Overridden
         System.out.println(b);
 
+
+        int binary = 0b1010;
+        int hex = 0xFF;
+        long amount = 1_000_000L;
+        System.out.println(binary);
+        System.out.println(hex);
+        System.out.println(amount);
     }
     /*
     1. data_type variable_name(Identifier = Unique name) = variable_value;
@@ -30,5 +39,8 @@ public class Lab008_Variables {
     3. 3 types of variable - Instance, static & Local
 
      */
+
+
+
 
 }
