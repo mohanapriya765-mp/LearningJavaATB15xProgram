@@ -18,6 +18,14 @@ public class Lab015_Operator {
     //Relational operator
         boolean result = a >= b;
         System.out.println(result);
+
+        // int c = a%2;
+        if (a%2==0)
+            System.out.printf("%d is Even number %n", a);
+        else
+            System.out.printf("%d is odd number %n ", a);
+
+        System.out.println("Code ends");
 }
 
 
