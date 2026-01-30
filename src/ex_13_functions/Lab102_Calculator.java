@@ -55,7 +55,10 @@ public class Lab102_Calculator {
     static int mul(int a, int b){
         return a*b;
     }
-    static int div(int a, int b) {
+    static int div(int a, int b) throws ArithmeticException {
+        if(b==0) {
+            throw new ArithmeticException("Division by zero is not allowed");
+        }
         return a / b;
     }
     static int mod(int a, int b){
