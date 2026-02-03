@@ -1,4 +1,4 @@
-package Exam_11_Jan_2026;
+package A_Exam_11_Jan_2026;
 
 import java.util.Scanner;
 
